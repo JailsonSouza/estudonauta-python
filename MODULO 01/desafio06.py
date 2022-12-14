@@ -3,6 +3,6 @@
 # seu dobro, triplo e raiz quadrada.
 print('=========== DESAFIO 06 ===========')
 num = int(input('Informe um número: '))
-print(f'O dobro do numero é {num * 2}')
-print(f'O triplo do numero é {pow(num, 3)}')
-print(f'A raiz quadrada do numero é {pow(num, 1/2)}')
+print(f'O dobro de {num} é {num * 2}')
+print(f'O triplo de {num} é {num * 3}')
+print(f'A raiz quadrada de {num} é {(pow(num, 1/2)):.2f}')
