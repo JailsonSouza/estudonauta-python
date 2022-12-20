@@ -1,7 +1,7 @@
 # desafio 28
-# Faça um programa que leia o nome completo de uma pessoa, mostrando em seguida
-# o primeiro e o ultimo nome separadamente.
-# Ex: Ana Maria de Souza ---- Primeiro: Ana, Último: Souza
+# Escreva um programa que faça o computador "pensar" em um número inteiro
+# entre 0 e 5 e peça ao usuário tente descobrir qual foi o número escolhido
+# pelo computador. O programa deverá escrever na tela se o user ganhou ou perdeu
 print('=========== DESAFIO 28 ===========')
 print('-=' * 20)
 print('Vou pensar em um número entre 0 e 5. Tente adivinhar...')
@@ -9,7 +9,7 @@ print('-=' * 20)
 from random import randint
 from time import sleep
 
-comp = randint(1, 5)
+comp = randint(0, 5)
 user = int(input('Em que número eu pensei? '))
 
 print('PROCESSANDO...')
