@@ -1,5 +1,6 @@
-# desafio 08
-# Escreva um programa que leia um valor em metros e o exiba convertido em centimetros e milimetros
+''' desafio 08
+    Escreva um programa que leia um valor em metros e o exiba convertido em centimetros e milimetros
+'''
 print('=========== DESAFIO 08 ===========')
 medida = float(input('Informe uma distância em metros: '))
 km = medida / 1000

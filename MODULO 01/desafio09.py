@@ -1,7 +1,9 @@
-# desafio 09
-# Escreva um programa que leia um número inteiro qualquuer e mostre a sua tabuada
+''' desafio 09
+    Escreva um programa que leia um número inteiro qualquuer e mostre a sua tabuada
+'''
 print('=========== DESAFIO 09 ===========')
 n = int(input('Informe um número: '))
+
 print('-----------')
 print(f'{n} x {1} = {n*1}')
 print(f'{n} x {2} = {n*2}')

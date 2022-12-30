@@ -1,6 +1,7 @@
-# desafio 04
-# Faça um programa que leia algo pelo teclado e mostre na tela o seu
-# tipo primitivo e todas as informações possiveis sobre ele
+''' desafio 04
+    Faça um programa que leia algo pelo teclado e mostre na tela o seu
+    tipo primitivo e todas as informações possiveis sobre ele
+'''
 print('=========== DESAFIO 04 ===========')
 var = input('Digite algo: ')
 
