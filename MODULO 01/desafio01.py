@@ -4,4 +4,5 @@
 '''
 print('=========== DESAFIO 01 ===========')
 nome = input('Informe o seu nome? ')
+
 print(f'Olá {nome}! Prazer em te conhecer!')
