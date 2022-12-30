@@ -1,4 +1,4 @@
-''' desafio 42
+''' desafio 43
     Refaça o desafio 35 dos triângulos, acrescentando o recurso de mostrar que tipo de
     triângulo será formado:
     - Equilátero: todos os lados iguais
@@ -12,7 +12,7 @@ cores = {
     'amarelo' : '\033[33m',
     'verde' : '\033[32m',
 }
-print(f'=========== {cores["vermelho"]}DESAFIO 42{cores["limpar"]} ===========')
+print(f'=========== {cores["vermelho"]}DESAFIO 43{cores["limpar"]} ===========')
 print(f'{cores["limpar"]}{cores["amarelo"]}=-' * 16)
 print(f'{cores["limpar"]}{cores["azul"]} Analisar de Triângulos{cores["limpar"]}')
 print(f'{cores["limpar"]}{cores["amarelo"]}=-' * 16)
