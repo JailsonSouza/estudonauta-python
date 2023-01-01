@@ -1,35 +1,24 @@
 ''' desafio 43
-    Refaça o desafio 35 dos triângulos, acrescentando o recurso de mostrar que tipo de
-    triângulo será formado:
-    - Equilátero: todos os lados iguais
-    - Isósceles: dois lados iguais
-    - Escaleno: todos os lados diferentes
+    Desenvolda uma lógica que leia o peso e a altura de uma pessoa, calcule seu IMC e mostre
+    seu status, de acordo com a tabela a baixo:
+    - Abaixo de 18.5: Abaixo do peso    - 25 até 30: Sobrepeso    - Acima de 40: Obesidade Mórbida
+    - Entre 18.5 e 25: Peso ideal       - 30 até 40: Obesidade
 '''
-cores = {
-    'limpar' : '\033[m',
-    'azul' : '\033[34m',
-    'vermelho' : '\033[31m',
-    'amarelo' : '\033[33m',
-    'verde' : '\033[32m',
-}
-print(f'=========== {cores["vermelho"]}DESAFIO 43{cores["limpar"]} ===========')
-print(f'{cores["limpar"]}{cores["amarelo"]}=-' * 16)
-print(f'{cores["limpar"]}{cores["azul"]} Analisar de Triângulos{cores["limpar"]}')
-print(f'{cores["limpar"]}{cores["amarelo"]}=-' * 16)
-print(f'{cores["limpar"]}')
-p1 = float(input('Informe o primeiro segmento: '))
-p2 = float(input('Informe o segundo segmento: '))
-p3 = float(input('Informe o terceiro segmento: '))
+print(f'=========== DESAFIO 43 ===========')
+peso = float(input('Informe seu peso? (kg) '))
+altura = float(input('Informe sua altura? (m) '))
 
-if ((p1 < p2 + p3) and (p2 < p1 + p3) and (p3 < p2 + p1)):
-    print('Os segmentos acima PODEM FORMAR um triângulo ', end='')
+imc = peso / (altura * altura)
 
-    if (p1 != p2 != p3 != p1):
-        print('ESCALENO!')
-    elif (p1 == p2 == p3 == p1):
-        print('EQUILÁTERO!')
-    else:
-        print('ISÓCELES!')
-        
+print(f'O imc dessa pessoa é {imc:.1f}')
+
+if (imc < 18.5):
+    print('Categoria: Abaixo do peso')
+elif (imc <= 25):
+    print('Categoria: Peso ideal')
+elif (imc <= 30):
+    print('Categoria: Sobrepeso')
+elif (imc <= 40):
+    print('Categoria: Obesidade')
 else:
-    print('Os segmentos acima NÃO PODEM FORMAR um triângulo!')
+    print('Categoria: Obesidade mórbida')
