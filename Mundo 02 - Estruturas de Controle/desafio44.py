@@ -11,8 +11,7 @@ print('''FORMAS DE PAGAMENTO
 [ 1 ] à vista dinheiro/cheque
 [ 2 ] à vista cartão
 [ 3 ] 2x no cartão
-[ 4 ] 3x ou mais no cartão
-''')
+[ 4 ] 3x ou mais no cartão''')
 opc = int(input('Qual é a opção? '))
 
 if (opc == 1):
