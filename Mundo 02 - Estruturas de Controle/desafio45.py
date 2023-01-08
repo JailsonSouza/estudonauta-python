@@ -1,7 +1,7 @@
 ''' desafio 45
     Crie um programa que faça o computador jogar jokenpô com você.
 '''
-print(f'=========== DESAFIO 45 ===========')
+print('=========== DESAFIO 45 ===========')
 from random import randint
 from time import sleep
 

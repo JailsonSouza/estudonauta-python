@@ -2,7 +2,7 @@
     Desenvolva um programa que leia 6 números inteiros e mostre a soma apenas
     daqueles que forem pares. Se o valor digitado for impar, desconsidere-o
 '''
-print(f'=========== DESAFIO 50 ===========')
+print('=========== DESAFIO 50 ===========')
 soma = 0
 cont = 0
 

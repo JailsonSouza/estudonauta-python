@@ -4,8 +4,8 @@
     - A vista dinhreiro/cheque: 10% de desconto     - em até 2x no cartão: preço normal
     - A vista no cartão: 5% de desconto             - 3x ou mais no cartão: 20% de juros 
 '''
-print(f'=========== DESAFIO 44 ===========')
-print(f'=========== LOJA JAILSON ===========')
+print('=========== DESAFIO 44 ===========')
+print('=========== LOJA JAILSON ===========')
 valor = float(input('Informe o valor das compras? R$'))
 print('''FORMAS DE PAGAMENTO
 [ 1 ] à vista dinheiro/cheque
